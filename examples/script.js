@@ -1,11 +1,11 @@
 // Strings, number
-let productName="Blockchain";
+let productName="Blockchain",
     productName2="Blockchain";
 console.log(productName, productName2, productName2)
 console.log(typeof(productName))
 console.log(typeof(9))
 
-let result = 0/0;
+let result = 10/10;
 console.log(result, typeof(result));
 
 // Boolean. true or false
@@ -15,5 +15,29 @@ console.log(flag, typeof(flag));
 // underfined, null types
 let one, 
     two = null;
-console.log(one, two
+console.log(one, two);
+
+// Arrays
+let myArray = ['New york', 'Singapore', 'london', 'Canada'];
+console.log(myArray[0], myArray[3])
+myArray.push("Italy")
+console.log(myArray);
+myArray.pop()
+console.log(myArray);
+myArray.shift();
+console.log(myArray);
+myArray.splice(2, 1);
+console.log(myArray);
+myArray.push("Rome");
+console.log(myArray);
+myArray.push("Italy");
+console.log(myArray);
+myArray.splice(0, 2);
+console.log(myArray);
+myArray.splice(0, 2, "New zealand", "Greece", "Israel");
+console.log(myArray);
+
+
+
+
 
