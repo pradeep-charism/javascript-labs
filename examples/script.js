@@ -43,5 +43,13 @@ for (let i=0; i<3; i++){
     console.log(i);
 }
 
+// Math and Date
+let rand = Math.random() * 52;
+rand = Math.trunc(rand);
+console.log(rand);
 
+let dt = new Date();
+console.log(dt.toDateString());
+
+console.log(Number.isNaN(10/20));
 
