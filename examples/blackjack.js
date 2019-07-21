@@ -1,4 +1,14 @@
 
+
+let textArea=document.getElementById('text-area');
+textArea.innerText='Hello world!';
+
+let okButton=document.getElementById('ok-button');
+okButton.innerText='Ok!';
+okButton.addEventListener('click', function(){
+    textArea.innerText="Button Clicked";
+});
+
 let suites = ['Hearts', 'Spades', 'Diamonds', 'Clubs'];
 
 let values = ['Ace', 'King', 'Queen', 'Jack',
