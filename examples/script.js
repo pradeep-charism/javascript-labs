@@ -5,7 +5,7 @@ console.log(productName, productName2, productName2)
 console.log(typeof(productName))
 console.log(typeof(9))
 
-let result = 10/10;
+let result = 1010/10;
 console.log(result, typeof(result));
 
 // Boolean. true or false
@@ -38,6 +38,10 @@ myArray.splice(0, 2, "New zealand", "Greece", "Israel");
 console.log(myArray);
 
 
+// For loop
+for (let i=0; i<3; i++){
+    console.log(i);
+}
 
 
 
